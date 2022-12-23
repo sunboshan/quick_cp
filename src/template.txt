@@ -1,0 +1,4 @@
+select count(*) as count, TMP
+from `my-table`
+group by TMP
+order by count desc;
